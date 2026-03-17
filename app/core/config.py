@@ -19,8 +19,5 @@ class Settings(BaseSettings):
         extra="ignore"
     )
 
-print(f"BASE_DIR{BASE_DIR}")
-print(f"ENV_PATH{ENV_PATH}")
-    
 settings = Settings()
 
